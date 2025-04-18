@@ -60,6 +60,8 @@ p {
     font-family: "Sofia", sans-serif;
     border: solid black;
 
+    font-size: large;
+
 }
 #l2 {
     position: absolute;
@@ -75,6 +77,8 @@ p {
     color: black;
     border: solid black;
     font-family: "Sofia", sans-serif;
+
+    font-size: large;
 }
 #l3 {
     position: absolute;
@@ -90,6 +94,8 @@ p {
     color: white;
     border: solid black;
     font-family: "Sofia", sans-serif;
+
+    font-size: large;
 }
 #l4 {
     position: absolute;
@@ -105,24 +111,54 @@ p {
     color: white;
     font-family: "Sofia", sans-serif;
     border: solid black;
+
+    font-size: large;
+}
+
+#l5 {
+    position: absolute;
+    right: 550px;
+
+    top: 450px;
+    width: 300px;
+    height: 40px;
+    border-radius: 8px;
+
+    border-color: black;
+    background-color: beige;
+    color: black;
+    font-family: "Sofia", sans-serif;
+    border: solid black;
+
+    font-size: large;
 }
 
 
 #l1:hover{
-    color: black;
-    background-color: white;
+    color: #5865F2;
+    background-color: black;
+    border: solid #5865F2;
 }
 #l2:hover{
-    color: black;
-    background-color: white;
+    color: #1ED760;
+    background-color: black;
+    border: solid #1ED760;
 }
 #l3:hover{
-    color: black;
-    background-color: white;
+    color: #006587;
+    background-color: black;
+    border: solid #006587;
 }
 #l4:hover{
-    color: black;
-    background-color: white;
+    color: #FF0000;
+    background-color: black;
+    border: solid #FF0000;
+}
+
+#l5:hover{
+    color: beige;
+    background-color: black;
+    border: solid beige;
 }
 
 .icon {
