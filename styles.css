@@ -12,10 +12,7 @@ p {
   font-size: 70pt;
   font-family: "Sofia", sans-serif;
 }
-.cent{
-   display: flex;
-   justify-content: center;
-}
+
 
 
 #leftGif {
@@ -46,7 +43,7 @@ p {
 
 
 #l1 {
-    position: absolute;
+    /* position: absolute; */
     right: 550px;
 
     top: 250px;
@@ -64,7 +61,7 @@ p {
 
 }
 #l2 {
-    position: absolute;
+    /* position: absolute; */
     right: 550px;
 
     top: 300px;
@@ -81,7 +78,7 @@ p {
     font-size: large;
 }
 #l3 {
-    position: absolute;
+    /* position: absolute; */
     right: 550px;
 
     top: 350px;
@@ -98,7 +95,7 @@ p {
     font-size: large;
 }
 #l4 {
-    position: absolute;
+    /* position: absolute; */
     right: 550px;
 
     top: 400px;
@@ -116,7 +113,7 @@ p {
 }
 
 #l5 {
-    position: absolute;
+    /* position: absolute; */
     right: 550px;
 
     top: 450px;
@@ -162,10 +159,10 @@ p {
 }
 
 .icon {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 
-    position: relative;
+    /* position: relative; */
     width: 37px;
     height: 37px;
     padding: 6.5px;
@@ -174,3 +171,27 @@ p {
 
     left: 570px;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20vw;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.icons, .buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ 
+ .buttons {
+    gap: 10px;
+ }
+
+ .cent{
+    display: flex;
+    justify-content: center;
+ }
