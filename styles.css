@@ -41,7 +41,7 @@ p {
     width: 300px;
 }
 #rightGif3 {
-    position: absolute;
+    position: fixed;
     bottom: -30%;
     width: 100%;
     z-index: -1;
